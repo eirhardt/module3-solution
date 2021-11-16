@@ -7,7 +7,7 @@ body{
 }
 #header-nav{
   background-color: #9fe7fc;
-  border:2px solid black;
+  border:1px solid black;
   border-radius: 0;
 }
 .navbar-brand{
@@ -19,7 +19,7 @@ body{
 }
 .navbar-brand h1{
   color: #000;
-  font-size: 1em;
+  font-size: 2em;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
@@ -30,14 +30,12 @@ body{
   text-decoration: none;  
 }
 #nav-list{
-  border:1px solid;
+  border:3px solid;
 }
-#nav-list:nth-child(3){
-  border-bottom:0;
-}
+
 #nav-list li{
   background: #ebb9ff;
-  border-bottom:2px solid;
+  border-bottom:3px solid;
 }
 #nav-list li:nth-child(3){
   border-bottom:0;
